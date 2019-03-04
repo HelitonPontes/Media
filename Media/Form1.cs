@@ -43,9 +43,7 @@ namespace Media
             txtNota2.Clear();
             txtNota3.Clear();
             txtNota4.Clear();
-            
-
-
+    
         }
 
         private void btnSair_Click(object sender, EventArgs e)
@@ -60,11 +58,22 @@ namespace Media
             m.nota2 = float.Parse(txtNota2.Text);
             m.nota3 = float.Parse(txtNota3.Text);
             m.nota4 = float.Parse(txtNota4.Text);
-
+    
             m.MediaNota();
 
             lblNome.Text = m.nome;
-            lblMedia.Text =Convert.ToString(m.resultado);
+            lblMedia.Text =Convert.ToString("A Media " + m.resultado);
+           
+            lblMaiorNota.Text =Convert.ToString ("A maior Nota " + m.maiornota);
+
+
+            lblMenorNota.Text = Convert.ToString("A Menor Nota " + m.menornota);
+
+
+
+
+
+
         }
     }
 }

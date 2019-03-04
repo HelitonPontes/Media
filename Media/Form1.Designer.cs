@@ -133,7 +133,7 @@
             this.btnMedia.Name = "btnMedia";
             this.btnMedia.Size = new System.Drawing.Size(82, 28);
             this.btnMedia.TabIndex = 11;
-            this.btnMedia.Text = "Media";
+            this.btnMedia.Text = "Média";
             this.btnMedia.UseVisualStyleBackColor = true;
             this.btnMedia.Click += new System.EventHandler(this.btnMedia_Click);
             // 
