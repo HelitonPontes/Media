@@ -30,13 +30,13 @@ namespace Media
                 maiornota = nota2;
 
             }
-            if (nota3 >= nota2 && nota3 >= nota1 && nota3 >= nota4)
+            if (nota3 >= nota1 && nota3 >= nota2 && nota3 >= nota4)
             {
                 maiornota = nota3;
 
             }
          
-            if (nota4 >= nota1 && nota2 >= nota1 && nota4 >= nota3)
+            if (nota4 >= nota1 && nota4 >= nota2 && nota4 >= nota3)
             {
                 maiornota = nota4;
             }
@@ -74,7 +74,7 @@ namespace Media
 
             }
 
-            if (nota4 <= nota1 && nota2 <= nota1 && nota4 <= nota3)
+            if (nota4 <= nota1 && nota4 <= nota2 && nota4 <= nota3)
             {
                 menornota = nota4;
             }
