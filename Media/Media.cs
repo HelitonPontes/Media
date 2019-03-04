@@ -20,6 +20,26 @@ namespace Media
 
         public void MaiorNota ()
         {
+            if (nota1 >= nota2 & nota1 >= nota3 & nota1 >= nota4)
+            {
+                maiornota = nota1;
+
+            }
+            if (nota2 >= nota1 && nota2 >= nota3 && nota2 >= nota4)
+            {
+                maiornota = nota2;
+
+            }
+            if (nota3 >= nota2 && nota3 >= nota1 && nota3 >= nota4)
+            {
+                maiornota = nota3;
+
+            }
+         
+            if (nota4 >= nota1 && nota2 >= nota1 && nota4 >= nota3)
+            {
+                maiornota = nota4;
+            }
 
         }
 
@@ -27,9 +47,9 @@ namespace Media
         {
             resultado = (nota1 + nota2 + nota3 + nota4) / 4;
 
-            if (resultado == 9)
+            if (resultado == 10)
             {
-                MessageBox.Show("boa nota");
+                MessageBox.Show("Nota maxima");
 
             }
 
@@ -38,6 +58,26 @@ namespace Media
 
         public void MenorNota ()
         {
+            if (nota1 <= nota2 && nota1 <= nota3 && nota1 <= nota4)
+            {
+                menornota= nota1;
+
+            }
+            if (nota2 <= nota1 && nota2 <= nota3 && nota2 <= nota4)
+            {
+                menornota = nota2;
+
+            }
+            if (nota3  <= nota2 && nota3 <= nota1 && nota3 <= nota4)
+            {
+                menornota = nota3;
+
+            }
+
+            if (nota4 <= nota1 && nota2 <= nota1 && nota4 <= nota3)
+            {
+                menornota = nota4;
+            }
 
         }
 

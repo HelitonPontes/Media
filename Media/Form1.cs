@@ -61,6 +61,10 @@ namespace Media
     
             m.MediaNota();
 
+            m.MaiorNota();
+
+            m.MediaNota();
+
             lblNome.Text = m.nome;
             lblMedia.Text =Convert.ToString("A Media " + m.resultado);
            
